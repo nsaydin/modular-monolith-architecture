@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Events" />
+      <Folder Include="ExternalQueries" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\shared\Protein.Shared.Abstractions\Protein.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\..\Profiles\Protein.Modules.Profiles.Shared\Protein.Modules.Profiles.Shared.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Reservations.Core\Protein.Modules.Reservations.Core.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Reservations.Shared\Protein.Modules.Reservations.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

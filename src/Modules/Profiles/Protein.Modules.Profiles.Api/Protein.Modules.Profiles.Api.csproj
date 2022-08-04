@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\shared\Protein.Shared.Abstractions\Protein.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Profiles.Application\Protein.Modules.Profiles.Application.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Profiles.Core\Protein.Modules.Profiles.Core.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Profiles.Infrastructure\Protein.Modules.Profiles.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

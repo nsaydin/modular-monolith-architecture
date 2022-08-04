@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Modules\Profiles\Protein.Modules.Profiles.Api\Protein.Modules.Profiles.Api.csproj" />
+      <ProjectReference Include="..\..\Modules\Reservations\Protein.Modules.Reservations.Api\Protein.Modules.Reservations.Api.csproj" />
+    </ItemGroup>
+
+</Project>

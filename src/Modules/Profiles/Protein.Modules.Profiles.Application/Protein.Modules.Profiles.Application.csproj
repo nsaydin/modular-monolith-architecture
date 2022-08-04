@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Events" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\shared\Protein.Shared.Abstractions\Protein.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\..\reservations\Protein.Modules.Reservations.Shared\Protein.Modules.Reservations.Shared.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Profiles.Core\Protein.Modules.Profiles.Core.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Profiles.Shared\Protein.Modules.Profiles.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

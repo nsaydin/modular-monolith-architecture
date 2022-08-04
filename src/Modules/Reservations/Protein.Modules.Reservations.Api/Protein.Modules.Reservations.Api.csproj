@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\shared\Protein.Shared.Abstractions\Protein.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Reservations.Application\Protein.Modules.Reservations.Application.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Reservations.Core\Protein.Modules.Reservations.Core.csproj" />
+      <ProjectReference Include="..\Protein.Modules.Reservations.Infrastructure\Protein.Modules.Reservations.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
